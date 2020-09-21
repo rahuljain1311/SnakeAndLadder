@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		625425832516D8F200991443 /* SnakeAndLadder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SnakeAndLadder; sourceTree = BUILT_PRODUCTS_DIR; };
 		625425862516D8F200991443 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		625425BB25171F9200991443 /* snake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = snake.h; sourceTree = "<group>"; };
+		625425BC25171FB600991443 /* ladder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ladder.h; sourceTree = "<group>"; };
+		625425BD25171FC800991443 /* player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		625425BE251720EC00991443 /* SnakeLadder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnakeLadder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,21 @@
 		625425852516D8F200991443 /* SnakeAndLadder */ = {
 			isa = PBXGroup;
 			children = (
+				625425BA25171F7800991443 /* headerfiles */,
 				625425862516D8F200991443 /* main.cpp */,
 			);
 			path = SnakeAndLadder;
+			sourceTree = "<group>";
+		};
+		625425BA25171F7800991443 /* headerfiles */ = {
+			isa = PBXGroup;
+			children = (
+				625425BB25171F9200991443 /* snake.h */,
+				625425BC25171FB600991443 /* ladder.h */,
+				625425BD25171FC800991443 /* player.h */,
+				625425BE251720EC00991443 /* SnakeLadder.h */,
+			);
+			path = headerfiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
