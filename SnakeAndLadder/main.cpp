@@ -6,10 +6,11 @@
 //  Copyright © 2020 Rahul Jain. All rights reserved.
 //
 
-#include <iostream>
+#include "headerfiles/SnakeLadder.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    
+    SnakeLadder game;
+    game.play();
     return 0;
 }
